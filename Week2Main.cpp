@@ -15,8 +15,7 @@ int main() {
             myFile << letter << "\n";
         }
 
-            cout << "File was created successfully!";
+        cout << "Build finished!" << endl;
         myFile.close();
     } else cout << "File was not created!";
-    return 0;
 }
